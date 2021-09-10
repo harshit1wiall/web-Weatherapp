@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background: url("https://images.unsplash.com/photo-1615162166453-847da1fc9846?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNsZWFyJTIwc2t5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat;
+    background-size: 100%;
+    
+
+}
+.container
+{
+    box-shadow: 2px 2px 2px 2px #ccc;
+ margin: 9% auto;
+ display: flex;
+ flex-direction: column;
+ height: 65vh;
+ width: 50vh;
+ background-color: rgb(255, 255, 255);
+ opacity: 0.9;
+}
+#inp{
+    width: 75%;
+    margin:4% 11%;
+    height: 6vh;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    background-color: black;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+}
+
+#submit
+{
+    width: 75%;
+    height: 5vh;
+    margin: 2% 11%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+#submit:hover{
+    transform: scale(1.03);
+    transition: 9ms;
+}
+
+/*             ------       display searched city's weather        ------------ */
+
+#result{
+    margin: 4vh 20px;
+    background-color:#f8f9fa;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    height: 75%;
+    
+}
+#temp{
+    text-align: center;
+    font-size: 4vh;
+    margin: 4% auto;
+}
+
+#temp-max,#temp-min{
+    text-align: center;
+    font-size: 4vh;
+    display: inline;
+    
+
+}
+#icon{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 5vh;   
+    
+}
+
+#dateUp{
+    margin-top: 6%;
+    text-align: center;
+    font-size: 3vh;   
+}
+
+@media screen and (max-width:320px) {
+    .container
+{
+ 
+ height: 80%;
+ width: 95%;
+}
+    
+}
