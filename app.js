@@ -48,6 +48,7 @@ function weathershow(searchText){
                   case "rainy":
                       case "very heavy rain":
                           case "moderate rain":
+                              case "light rain":
                         back.style.background="url(https://images.unsplash.com/photo-1501691223387-dd0500403074?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFpbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat";
                   back.style.backgroundSize="100% 100%";
                   break
@@ -83,6 +84,7 @@ function weathershow(searchText){
         tempmax.innerHTML="";
         tempmin.innerHTML="";
         Icon.innerHTML="";
+        msg.innerText=""; 
     
 
 }
