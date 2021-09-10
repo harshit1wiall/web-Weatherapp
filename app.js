@@ -12,7 +12,7 @@ const DateUpdate=document.getElementById('dateUp');
 
 function weathershow(searchText){
 
-    const url=`http://api.openweathermap.org/data/2.5/weather?q=${searchText}&appid=df0b1da0f1f46fd918b24a228822eb06`;
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${searchText}&appid=df0b1da0f1f46fd918b24a228822eb06`;
 
     fetch(url)
         .then((res) =>res.json())
